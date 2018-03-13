@@ -1,0 +1,30 @@
+[INITIAL]
+apercaldir = '/home/adams/apercal'
+fluxcal = ''
+polcal = ''
+target = 'Dw1'
+basedir = '/data/adams/apertif/AAF_DW1/'
+beam = '00'
+rawsubdir = 'raw'
+crosscalsubdir = 'crosscal'
+selfcalsubdir = 'selfcal'
+linesubdir = 'line'
+contsubdir = 'continuum'
+polsubdir = 'polarisation'
+
+[PREPARE]
+prepare_obsdir_fluxcal = ''
+prepare_obsdir_polcal = ''
+prepare_obsdir_target = '/data/apertif/180216005_Dwingeloo1/'
+prepare_obsmode = 'single_element'
+
+[CONVERT]
+convert_ms2uvfits = True
+convert_ms2uvfits_tool = 'casa'
+convert_ms2uvfits_tool_casa_autocorr = False
+convert_uvfits2mir = True
+convert_uvfits2mir_tool = 'fits'
+convert_fluxcal = False
+convert_polcal = False
+convert_target = True
+
