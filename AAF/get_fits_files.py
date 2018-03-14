@@ -34,28 +34,35 @@ uvimage = lib.miriad('uvimage')
 uvimage.vis = ccal.target+'mir' #uvaver.out
 uvimage.view = 'amplitude'
 targetname = ccal.target
-uvimage.out= targetname+'_amp.im'
+uvimage.out= targetname+'_amp_freq.im'
 #still too much data so also select a time range
 #parentheses in command so need double quote
 uvimage.select="'-auto,time(11:00:00,12:00:00)'"
 uvimage.line='channel,1280,8320,1'
+uvimage.options = 'freq'
+uvimage.mode=3
 uvimage.go()
 
 #write to fits file
 fits = lib.miriad('fits')
 fits.in_ = uvimage.out
 fits.op = "xyout"
-fits.out = targetname+'_amp.fits'
+fits.out = targetname+'_amp_freq.fits'
 fits.go()
 
 
 #now do phase
 uvimage.view='phase'
-uvimage.out=targetname+'_phase.im'
+uvimage.out=targetname+'_phase_freq.im'
+uvimage.vis = ccal.target+'mir' #uvaver.out
+uvimage.select="'-auto,time(11:00:00,12:00:00)'"
+uvimage.line='channel,1280,8320,1'
+uvimage.options = 'freq'
+uvimage.mode=3
 uvimage.go()
 
 fits.in_ = uvimage.out
-fits.out = targetname+'_phase.fits'
+fits.out = targetname+'_phase_freq.fits'
 fits.go()
 
 #and now do the second source
@@ -68,7 +75,7 @@ uvimage = lib.miriad('uvimage')
 uvimage.vis = ccal.target+'mir' #uvaver.out
 uvimage.view = 'amplitude'
 targetname = ccal.target
-uvimage.out= targetname+'_amp.im'
+uvimage.out= targetname+'_amp_freq.im'
 #still too much data so also select a time range
 #parentheses in command so need double quote
 uvimage.select="'-auto,time(04:00:00,05:00:00)'"
@@ -76,16 +83,19 @@ uvimage.line='channel,1280,8320,1'
 uvimage.go()
 
 fits.in_ = uvimage.out
-fits.out = targetname+'_amp.fits'
+fits.out = targetname+'_amp_freq.fits'
 fits.go()
 
 #and phase of second source
 uvimage.view='phase'
-uvimage.out=targetname+'_phase.im'
+uvimage.out=targetname+'_phase_freq.im'
+uvimage.view = 'amplitude'
+uvimage.select="'-auto,time(04:00:00,05:00:00)'"
+uvimage.line='channel,1280,8320,1'
 uvimage.go()
 
 fits.in_ = uvimage.out
-fits.out = targetname+'_phase.fits'
+fits.out = targetname+'_phase_freq.fits'
 fits.go()
 
 #And that should be everything
