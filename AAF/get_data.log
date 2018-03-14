@@ -288,3 +288,150 @@ fits: Revision 1.32, 2014/09/15 04:39:01 UTC
 
 
 03/14/2018 10:19:36 AM - basher - DEBUG : Returning output.
+03/14/2018 01:10:20 PM - root - INFO : Logging started!
+03/14/2018 01:10:20 PM - root - INFO : To see the log in a bash window use the following command:
+03/14/2018 01:10:20 PM - root - INFO : tail -n +1 -f /home/adams/apertif/AAF/get_data.log
+03/14/2018 01:10:35 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180302009.cfg successfully read! ###
+03/14/2018 01:10:36 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DR21/00/crosscal #
+03/14/2018 01:11:03 PM - masher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:11:03 PM - basher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:11:03 PM - basher - DEBUG : Command = uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:11:03 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+
+03/14/2018 01:11:03 PM - basher - DEBUG : ### Fatal Error:  File does not exist: DR21mir
+
+03/14/2018 01:11:03 PM - basher - DEBUG : Returning output.
+03/14/2018 01:11:30 PM - masher - DEBUG : fits in=DR21_amp.im op=xyout out=DR21_amp.fits 
+03/14/2018 01:11:30 PM - basher - DEBUG : fits in=DR21_amp.im op=xyout out=DR21_amp.fits 
+03/14/2018 01:11:30 PM - basher - DEBUG : Command = fits in=DR21_amp.im op=xyout out=DR21_amp.fits 
+03/14/2018 01:11:30 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 01:11:30 PM - basher - DEBUG : ### Warning:  Error opening DR21_amp.im, in XYOPEN
+### Fatal Error:  No such file or directory
+
+03/14/2018 01:11:30 PM - basher - DEBUG : Returning output.
+03/14/2018 01:11:35 PM - masher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:11:35 PM - basher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:11:35 PM - basher - DEBUG : Command = uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:11:35 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+
+03/14/2018 01:11:35 PM - basher - DEBUG : ### Fatal Error:  File does not exist: DR21mir
+
+03/14/2018 01:11:35 PM - basher - DEBUG : Returning output.
+03/14/2018 01:11:39 PM - masher - DEBUG : fits in=DR21_phase.im op=xyout out=DR21_phase.fits 
+03/14/2018 01:11:39 PM - basher - DEBUG : fits in=DR21_phase.im op=xyout out=DR21_phase.fits 
+03/14/2018 01:11:39 PM - basher - DEBUG : Command = fits in=DR21_phase.im op=xyout out=DR21_phase.fits 
+03/14/2018 01:11:39 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 01:11:39 PM - basher - DEBUG : ### Warning:  Error opening DR21_phase.im, in XYOPEN
+### Fatal Error:  No such file or directory
+
+03/14/2018 01:11:39 PM - basher - DEBUG : Returning output.
+03/14/2018 01:12:44 PM - root - INFO : Logging started!
+03/14/2018 01:12:44 PM - root - INFO : To see the log in a bash window use the following command:
+03/14/2018 01:12:44 PM - root - INFO : tail -n +1 -f /home/adams/apertif/AAF/get_data.log
+03/14/2018 01:12:48 PM - masher - DEBUG : uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:12:48 PM - basher - DEBUG : uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:12:48 PM - basher - DEBUG : Command = uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:12:48 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+
+03/14/2018 01:12:48 PM - basher - DEBUG : ### Fatal Error:  Input name must be given
+
+03/14/2018 01:12:48 PM - basher - DEBUG : Returning output.
+03/14/2018 01:12:48 PM - masher - DEBUG : uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:12:48 PM - basher - DEBUG : uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:12:48 PM - basher - DEBUG : Command = uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:12:48 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+
+03/14/2018 01:12:48 PM - basher - DEBUG : ### Fatal Error:  Input name must be given
+
+03/14/2018 01:12:48 PM - basher - DEBUG : Returning output.
+03/14/2018 01:13:22 PM - root - INFO : Logging started!
+03/14/2018 01:13:22 PM - root - INFO : To see the log in a bash window use the following command:
+03/14/2018 01:13:22 PM - root - INFO : tail -n +1 -f /home/adams/apertif/AAF/get_data.log
+03/14/2018 01:13:28 PM - masher - DEBUG : uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:13:28 PM - basher - DEBUG : uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:13:28 PM - basher - DEBUG : Command = uvimage line=channel,1280,8320,1 select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:13:28 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+
+03/14/2018 01:13:28 PM - basher - DEBUG : ### Fatal Error:  Input name must be given
+
+03/14/2018 01:13:28 PM - basher - DEBUG : Returning output.
+03/14/2018 01:13:50 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180302009.cfg successfully read! ###
+03/14/2018 01:13:50 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DR21/00/crosscal #
+03/14/2018 01:13:50 PM - masher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:13:50 PM - basher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:14:56 PM - basher - DEBUG : Command = uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 01:14:56 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       58505  Nant=          11
+ Nchan=        1280  Nbl=         500  Ntime=         117  Space used:     74880000  /    132775200  =    56.3960724     %
+ C-B-T cube
+ number of records read=  58505
+
+03/14/2018 01:14:56 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 01:14:56 PM - basher - DEBUG : Returning output.
+03/14/2018 01:14:56 PM - masher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:14:56 PM - basher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:15:26 PM - basher - DEBUG : Command = uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:15:26 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       25740  Nant=          11
+ Nchan=        1280  Nbl=         220  Ntime=         117  Space used:     32947200  /    132775200  =    24.8142719     %
+ C-B-T cube
+ number of records read=  25740
+
+03/14/2018 01:15:26 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+
+03/14/2018 01:15:26 PM - basher - DEBUG : Returning output.
+03/14/2018 01:26:47 PM - masher - DEBUG : fits in=DR21_phase.im op=xyout out=DR21_amp.fits 
+03/14/2018 01:26:47 PM - basher - DEBUG : fits in=DR21_phase.im op=xyout out=DR21_amp.fits 
+03/14/2018 01:26:47 PM - basher - DEBUG : Command = fits in=DR21_phase.im op=xyout out=DR21_amp.fits 
+03/14/2018 01:26:47 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 01:26:47 PM - basher - DEBUG : Returning output.
+03/14/2018 01:26:47 PM - masher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:26:47 PM - basher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:27:12 PM - basher - DEBUG : Command = uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 01:27:12 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       25740  Nant=          11
+ Nchan=        1280  Nbl=         220  Ntime=         117  Space used:     32947200  /    132775200  =    24.8142719     %
+ C-B-T cube
+
+03/14/2018 01:27:12 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  Error opening DR21_phase.im, in XYOPEN
+### Fatal Error:  File exists
+
+03/14/2018 01:27:12 PM - basher - DEBUG : Returning output.
+03/14/2018 01:27:12 PM - masher - DEBUG : fits in=DR21_phase.im op=xyout out=DR21_phase.fits 
+03/14/2018 01:27:12 PM - basher - DEBUG : fits in=DR21_phase.im op=xyout out=DR21_phase.fits 
+03/14/2018 01:27:13 PM - basher - DEBUG : Command = fits in=DR21_phase.im op=xyout out=DR21_phase.fits 
+03/14/2018 01:27:13 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 01:27:13 PM - basher - DEBUG : Returning output.
