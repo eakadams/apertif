@@ -1,0 +1,290 @@
+03/14/2018 09:16:12 AM - root - INFO : Logging started!
+03/14/2018 09:16:12 AM - root - INFO : To see the log in a bash window use the following command:
+03/14/2018 09:16:12 AM - root - INFO : tail -n +1 -f /home/adams/apertif/AAF/get_data.log
+03/14/2018 09:16:38 AM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180216005.cfg successfully read! ###
+03/14/2018 09:16:44 AM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DW1/00/crosscal #
+03/14/2018 09:19:21 AM - masher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 view=amplitude out=Dw1_amp.im 
+03/14/2018 09:19:21 AM - basher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 view=amplitude out=Dw1_amp.im 
+03/14/2018 09:19:43 AM - basher - DEBUG : Command = uvimage vis=Dw1mir line=channel,1280,8320,1 view=amplitude out=Dw1_amp.im 
+03/14/2018 09:19:43 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=      150976  Nant=           8
+ Nchan=        1280  Nbl=         112  Ntime=        1348  Space used:    193249280  /    132775200  =    145.546219     %
+ C-B-T cube
+
+03/14/2018 09:19:43 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Fatal Error:  Too many data, use  uvaver, or select= to cut down
+
+03/14/2018 09:19:43 AM - basher - DEBUG : Returning output.
+03/14/2018 09:23:11 AM - masher - DEBUG : uvaver vis=Dw1mir line=channel,1280,8320,1 out=Dw1tmp.mir 
+03/14/2018 09:23:11 AM - basher - DEBUG : uvaver vis=Dw1mir line=channel,1280,8320,1 out=Dw1tmp.mir 
+03/14/2018 09:23:31 AM - basher - DEBUG : Command = uvaver vis=Dw1mir line=channel,1280,8320,1 out=Dw1tmp.mir 
+03/14/2018 09:23:31 AM - basher - DEBUG : 
+UvAver: version 1.0 17-Nov-08
+
+03/14/2018 09:23:31 AM - basher - DEBUG : Returning output.
+03/14/2018 09:24:28 AM - masher - DEBUG : uvimage vis=Dw1tmp.mir view=amplitude out=Dw1_amp.im 
+03/14/2018 09:24:28 AM - basher - DEBUG : uvimage vis=Dw1tmp.mir view=amplitude out=Dw1_amp.im 
+03/14/2018 09:24:30 AM - basher - DEBUG : Command = uvimage vis=Dw1tmp.mir view=amplitude out=Dw1_amp.im 
+03/14/2018 09:24:30 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=      150976  Nant=           8
+ Nchan=        1280  Nbl=         112  Ntime=        1348  Space used:    193249280  /    132775200  =    145.546219     %
+ C-B-T cube
+
+03/14/2018 09:24:30 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Fatal Error:  Too many data, use  uvaver, or select= to cut down
+
+03/14/2018 09:24:30 AM - basher - DEBUG : Returning output.
+03/14/2018 09:27:26 AM - masher - DEBUG : uvlist vis=Dw1tmp.mir 
+03/14/2018 09:27:26 AM - basher - DEBUG : uvlist vis=Dw1tmp.mir 
+03/14/2018 09:33:43 AM - masher - DEBUG : uvimage vis=Dw1tmp.mir view=amplitude select='time(11:00:00,12:00:00)' out=Dw1_amp.im 
+03/14/2018 09:33:43 AM - basher - DEBUG : uvimage vis=Dw1tmp.mir view=amplitude select='time(11:00:00,12:00:00)' out=Dw1_amp.im 
+03/14/2018 09:33:48 AM - basher - DEBUG : Command = uvimage vis=Dw1tmp.mir view=amplitude select='time(11:00:00,12:00:00)' out=Dw1_amp.im 
+03/14/2018 09:33:48 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       45870  Nant=           8
+ Nchan=        1280  Nbl=         392  Ntime=         117  Space used:     58705920  /    132775200  =    44.2145233     %
+ C-B-T cube
+ number of records read=  45870
+
+03/14/2018 09:33:48 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 09:33:48 AM - basher - DEBUG : Returning output.
+03/14/2018 09:34:49 AM - masher - DEBUG : fits in=Dw1_amp.im op=xyout out=Dw1_amp.fits 
+03/14/2018 09:34:49 AM - basher - DEBUG : fits in=Dw1_amp.im op=xyout out=Dw1_amp.fits 
+03/14/2018 09:34:49 AM - basher - DEBUG : Command = fits in=Dw1_amp.im op=xyout out=Dw1_amp.fits 
+03/14/2018 09:34:49 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 09:34:49 AM - basher - DEBUG : Returning output.
+03/14/2018 09:35:32 AM - masher - DEBUG : uvimage vis=Dw1tmp.mir view=phase select='time(11:00:00,12:00:00)' out=Dw1_phase.im 
+03/14/2018 09:35:32 AM - basher - DEBUG : uvimage vis=Dw1tmp.mir view=phase select='time(11:00:00,12:00:00)' out=Dw1_phase.im 
+03/14/2018 09:35:35 AM - basher - DEBUG : Command = uvimage vis=Dw1tmp.mir view=phase select='time(11:00:00,12:00:00)' out=Dw1_phase.im 
+03/14/2018 09:35:35 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       13104  Nant=           8
+ Nchan=        1280  Nbl=         112  Ntime=         117  Space used:     16773120  /    132775200  =    12.6327200     %
+ C-B-T cube
+ number of records read=  13104
+
+03/14/2018 09:35:35 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+
+03/14/2018 09:35:35 AM - basher - DEBUG : Returning output.
+03/14/2018 09:42:01 AM - root - INFO : Logging started!
+03/14/2018 09:42:01 AM - root - INFO : To see the log in a bash window use the following command:
+03/14/2018 09:42:01 AM - root - INFO : tail -n +1 -f /home/adams/apertif/AAF/get_data.log
+03/14/2018 09:42:01 AM - PREPARE - INFO : ### Configuration file /home/adams/apertif/AAF/180216005.cfg successfully read! ###
+03/14/2018 09:42:01 AM - PREPARE - INFO : ########## Preparing data for calibration ##########
+03/14/2018 09:42:01 AM - PREPARE - WARNING : ### No flux calibrator dataset specified. The next steps might not work! ###
+03/14/2018 09:42:01 AM - PREPARE - WARNING : ### No polarisation calibrator dataset specified. The next steps might not work! ###
+03/14/2018 09:42:01 AM - PREPARE - INFO : ### 37 different beams for target field found. ###
+03/14/2018 09:42:01 AM - PREPARE - INFO : ### Copying central element beam to working directory. ###
+03/14/2018 09:42:01 AM - basher - DEBUG : cp -r /data/apertif/180216005_Dwingeloo1/WSRTA180216005_B000.MS /data/adams/apertif/AAF_DW1/00/raw/Dw1
+03/14/2018 09:45:44 AM - basher - DEBUG : Returning output.
+03/14/2018 09:45:44 AM - PREPARE - INFO : ### Target dataset(s) copied to working directories! ###
+03/14/2018 09:45:44 AM - PREPARE - INFO : ########## Data prepared for calibration ##########
+03/14/2018 09:45:44 AM - PREPARE - INFO : ### Configuration file /home/adams/apertif/AAF/180302009.cfg successfully read! ###
+03/14/2018 09:45:44 AM - PREPARE - INFO : ########## Preparing data for calibration ##########
+03/14/2018 09:45:44 AM - PREPARE - WARNING : ### No flux calibrator dataset specified. The next steps might not work! ###
+03/14/2018 09:45:44 AM - PREPARE - WARNING : ### No polarisation calibrator dataset specified. The next steps might not work! ###
+03/14/2018 09:45:44 AM - PREPARE - INFO : ### 37 different beams for target field found. ###
+03/14/2018 09:45:44 AM - PREPARE - INFO : ### Copying central element beam to working directory. ###
+03/14/2018 09:45:44 AM - basher - DEBUG : cp -r /data/apertif/180302009_DR21/WSRTA180302009_B000.MS /data/adams/apertif/AAF_DR21/00/raw/DR211
+03/14/2018 09:48:41 AM - basher - DEBUG : Returning output.
+03/14/2018 09:48:41 AM - PREPARE - INFO : ### Target dataset(s) copied to working directories! ###
+03/14/2018 09:48:41 AM - PREPARE - INFO : ########## Data prepared for calibration ##########
+03/14/2018 09:48:41 AM - CONVERT - INFO : ### Configuration file /home/adams/apertif/AAF/180216005.cfg successfully read! ###
+03/14/2018 09:48:41 AM - CONVERT - INFO : ########## FILE CONVERSION started ##########
+03/14/2018 09:48:41 AM - CONVERT - INFO : ### Starting conversion from MS to UVFITS format ###
+03/14/2018 09:55:59 AM - CONVERT - INFO : ### Converted MS file /data/adams/apertif/AAF_DW1/00/raw/Dw1 to UVFITS format! ###
+03/14/2018 09:55:59 AM - CONVERT - INFO : ### Conversion from MS to UVFITS format done! ###
+03/14/2018 09:55:59 AM - CONVERT - INFO : ### Starting conversion from UVFITS to MIRIAD format ###
+03/14/2018 09:55:59 AM - masher - DEBUG : fits in=/data/adams/apertif/AAF_DW1/00/crosscal/Dw1UVFITS op=uvin out=/data/adams/apertif/AAF_DW1/00/crosscal/Dw1mir 
+03/14/2018 09:55:59 AM - basher - DEBUG : fits in=/data/adams/apertif/AAF_DW1/00/crosscal/Dw1UVFITS op=uvin out=/data/adams/apertif/AAF_DW1/00/crosscal/Dw1mir 
+03/14/2018 09:58:26 AM - basher - DEBUG : Command = fits in=/data/adams/apertif/AAF_DW1/00/crosscal/Dw1UVFITS op=uvin out=/data/adams/apertif/AAF_DW1/00/crosscal/Dw1mir 
+03/14/2018 09:58:26 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+Determining various defaults ...
+  Assuming systemp=30
+  Assuming jyperk=8
+
+Analysing the extension tables ...
+  Using antenna table information
+  Decrementing times for configration 1 by -0.18 seconds (UTC-UT1).
+  Using frequency table information
+  Using source table information
+
+Handling the visibility data
+  Data are linearly polarized
+  Reading the correlation data
+  The estimated integration time of a sample is 31 seconds
+  Number of antennas: 8
+  Number of antenna configurations: 1
+
+03/14/2018 09:58:26 AM - basher - DEBUG : ### Warning:  1 unrecognised cards were written to the history file
+### Warning:  Ignored random parameter INTTIM
+
+03/14/2018 09:58:26 AM - basher - DEBUG : Returning output.
+03/14/2018 09:58:26 AM - basher - DEBUG : rm -r /data/adams/apertif/AAF_DW1/00/crosscal/Dw1UVFITS
+03/14/2018 09:58:30 AM - basher - DEBUG : Returning output.
+03/14/2018 09:58:30 AM - CONVERT - INFO : ### Converted UVFITS file /data/adams/apertif/AAF_DW1/00/crosscal/Dw1UVFITS to MIRIAD format! ###
+03/14/2018 09:58:30 AM - CONVERT - INFO : ### Conversion from UVFITS to MIRIAD format done! ###
+03/14/2018 09:58:30 AM - CONVERT - INFO : ########## FILE CONVERSION done ##########
+03/14/2018 09:58:30 AM - CONVERT - INFO : ### Configuration file /home/adams/apertif/AAF/180302009.cfg successfully read! ###
+03/14/2018 09:58:30 AM - CONVERT - INFO : ########## FILE CONVERSION started ##########
+03/14/2018 09:58:30 AM - CONVERT - INFO : ### Starting conversion from MS to UVFITS format ###
+03/14/2018 10:13:00 AM - CONVERT - INFO : ### Converted MS file /data/adams/apertif/AAF_DR21/00/raw/DR211 to UVFITS format! ###
+03/14/2018 10:13:00 AM - CONVERT - INFO : ### Conversion from MS to UVFITS format done! ###
+03/14/2018 10:13:00 AM - CONVERT - INFO : ### Starting conversion from UVFITS to MIRIAD format ###
+03/14/2018 10:13:00 AM - masher - DEBUG : fits in=/data/adams/apertif/AAF_DR21/00/crosscal/DR211UVFITS op=uvin out=/data/adams/apertif/AAF_DR21/00/crosscal/DR211mir 
+03/14/2018 10:13:00 AM - basher - DEBUG : fits in=/data/adams/apertif/AAF_DR21/00/crosscal/DR211UVFITS op=uvin out=/data/adams/apertif/AAF_DR21/00/crosscal/DR211mir 
+03/14/2018 10:16:53 AM - basher - DEBUG : Command = fits in=/data/adams/apertif/AAF_DR21/00/crosscal/DR211UVFITS op=uvin out=/data/adams/apertif/AAF_DR21/00/crosscal/DR211mir 
+03/14/2018 10:16:53 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+Determining various defaults ...
+  Assuming systemp=30
+  Assuming jyperk=8
+
+Analysing the extension tables ...
+  Using antenna table information
+  Decrementing times for configration 1 by -0.16 seconds (UTC-UT1).
+  Using frequency table information
+  Using source table information
+
+Handling the visibility data
+  Data are linearly polarized
+  Reading the correlation data
+  The estimated integration time of a sample is 31 seconds
+  Number of antennas: 11
+  Number of antenna configurations: 1
+
+03/14/2018 10:16:53 AM - basher - DEBUG : ### Warning:  1 unrecognised cards were written to the history file
+### Warning:  Ignored random parameter INTTIM
+
+03/14/2018 10:16:53 AM - basher - DEBUG : Returning output.
+03/14/2018 10:16:53 AM - basher - DEBUG : rm -r /data/adams/apertif/AAF_DR21/00/crosscal/DR211UVFITS
+03/14/2018 10:17:02 AM - basher - DEBUG : Returning output.
+03/14/2018 10:17:02 AM - CONVERT - INFO : ### Converted UVFITS file /data/adams/apertif/AAF_DR21/00/crosscal/DR211UVFITS to MIRIAD format! ###
+03/14/2018 10:17:02 AM - CONVERT - INFO : ### Conversion from UVFITS to MIRIAD format done! ###
+03/14/2018 10:17:02 AM - CONVERT - INFO : ########## FILE CONVERSION done ##########
+03/14/2018 10:17:02 AM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180216005.cfg successfully read! ###
+03/14/2018 10:17:02 AM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DW1/00/crosscal #
+03/14/2018 10:17:02 AM - masher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_amp.im select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 10:17:02 AM - basher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_amp.im select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 10:17:50 AM - basher - DEBUG : Command = uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_amp.im select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 10:17:50 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       45871  Nant=           8
+ Nchan=        1280  Nbl=         392  Ntime=         117  Space used:     58705920  /    132775200  =    44.2145233     %
+ C-B-T cube
+ number of records read=  45871
+
+03/14/2018 10:17:50 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 10:17:50 AM - basher - DEBUG : Returning output.
+03/14/2018 10:17:50 AM - masher - DEBUG : fits in=Dw1_amp.im op=xyout out=Dw1_amp.fits 
+03/14/2018 10:17:50 AM - basher - DEBUG : fits in=Dw1_amp.im op=xyout out=Dw1_amp.fits 
+03/14/2018 10:17:51 AM - basher - DEBUG : Command = fits in=Dw1_amp.im op=xyout out=Dw1_amp.fits 
+03/14/2018 10:17:51 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 10:17:51 AM - basher - DEBUG : Returning output.
+03/14/2018 10:17:51 AM - masher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_phase.im select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 10:17:51 AM - basher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_phase.im select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 10:18:04 AM - basher - DEBUG : Command = uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_phase.im select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 10:18:04 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       13104  Nant=           8
+ Nchan=        1280  Nbl=         112  Ntime=         117  Space used:     16773120  /    132775200  =    12.6327200     %
+ C-B-T cube
+ number of records read=  13104
+
+03/14/2018 10:18:04 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+
+03/14/2018 10:18:04 AM - basher - DEBUG : Returning output.
+03/14/2018 10:18:04 AM - masher - DEBUG : fits in=Dw1_phase.im op=xyout out=Dw1_phase.fits 
+03/14/2018 10:18:04 AM - basher - DEBUG : fits in=Dw1_phase.im op=xyout out=Dw1_phase.fits 
+03/14/2018 10:18:05 AM - basher - DEBUG : Command = fits in=Dw1_phase.im op=xyout out=Dw1_phase.fits 
+03/14/2018 10:18:05 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 10:18:05 AM - basher - DEBUG : Returning output.
+03/14/2018 10:18:05 AM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180302009.cfg successfully read! ###
+03/14/2018 10:18:05 AM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DR21/00/crosscal #
+03/14/2018 10:18:05 AM - masher - DEBUG : uvimage vis=DR211mir line=channel,1280,8320,1 out=DR211_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 10:18:05 AM - basher - DEBUG : uvimage vis=DR211mir line=channel,1280,8320,1 out=DR211_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 10:19:05 AM - basher - DEBUG : Command = uvimage vis=DR211mir line=channel,1280,8320,1 out=DR211_amp.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 10:19:05 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       58504  Nant=          11
+ Nchan=        1280  Nbl=         500  Ntime=         117  Space used:     74880000  /    132775200  =    56.3960724     %
+ C-B-T cube
+ number of records read=  58504
+
+03/14/2018 10:19:05 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 10:19:05 AM - basher - DEBUG : Returning output.
+03/14/2018 10:19:05 AM - masher - DEBUG : fits in=Dw1_phase.im op=xyout out=DR211_amp.fits 
+03/14/2018 10:19:05 AM - basher - DEBUG : fits in=Dw1_phase.im op=xyout out=DR211_amp.fits 
+03/14/2018 10:19:05 AM - basher - DEBUG : Command = fits in=Dw1_phase.im op=xyout out=DR211_amp.fits 
+03/14/2018 10:19:05 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 10:19:05 AM - basher - DEBUG : ### Warning:  Error opening Dw1_phase.im, in XYOPEN
+### Fatal Error:  No such file or directory
+
+03/14/2018 10:19:05 AM - basher - DEBUG : Returning output.
+03/14/2018 10:19:05 AM - masher - DEBUG : uvimage vis=DR211mir line=channel,1280,8320,1 out=DR211_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 10:19:05 AM - basher - DEBUG : uvimage vis=DR211mir line=channel,1280,8320,1 out=DR211_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 10:19:35 AM - basher - DEBUG : Command = uvimage vis=DR211mir line=channel,1280,8320,1 out=DR211_phase.im select='-auto,time(04:00:00,05:00:00)' view=phase 
+03/14/2018 10:19:35 AM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       25740  Nant=          11
+ Nchan=        1280  Nbl=         220  Ntime=         117  Space used:     32947200  /    132775200  =    24.8142719     %
+ C-B-T cube
+ number of records read=  25740
+
+03/14/2018 10:19:35 AM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+
+03/14/2018 10:19:35 AM - basher - DEBUG : Returning output.
+03/14/2018 10:19:35 AM - masher - DEBUG : fits in=DR211_phase.im op=xyout out=DR211_phase.fits 
+03/14/2018 10:19:35 AM - basher - DEBUG : fits in=DR211_phase.im op=xyout out=DR211_phase.fits 
+03/14/2018 10:19:36 AM - basher - DEBUG : Command = fits in=DR211_phase.im op=xyout out=DR211_phase.fits 
+03/14/2018 10:19:36 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 10:19:36 AM - basher - DEBUG : Returning output.
