@@ -2,8 +2,8 @@
 apercaldir = '/home/adams/apercal'
 fluxcal = ''
 polcal = ''
-target = 'Dw1'
-basedir = '/data/adams/apertif/AAF_DW1/'
+target = 'DR211'
+basedir = '/data/adams/apertif/AAF_DR21/'
 beam = '00'
 rawsubdir = 'raw'
 crosscalsubdir = 'crosscal'
@@ -15,7 +15,7 @@ polsubdir = 'polarisation'
 [PREPARE]
 prepare_obsdir_fluxcal = ''
 prepare_obsdir_polcal = ''
-prepare_obsdir_target = '/data/apertif/180216005_Dwingeloo1/'
+prepare_obsdir_target = '/data/apertif/180302009_DR21/'
 prepare_obsmode = 'single_element'
 
 [CONVERT]
