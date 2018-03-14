@@ -435,3 +435,212 @@ fits: Revision 1.32, 2014/09/15 04:39:01 UTC
 
 
 03/14/2018 01:27:13 PM - basher - DEBUG : Returning output.
+03/14/2018 08:35:21 PM - root - INFO : Logging started!
+03/14/2018 08:35:21 PM - root - INFO : To see the log in a bash window use the following command:
+03/14/2018 08:35:21 PM - root - INFO : tail -n +1 -f /home/adams/apertif/AAF/get_data.log
+03/14/2018 08:35:35 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180216005.cfg successfully read! ###
+03/14/2018 08:35:36 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DW1/00/crosscal #
+03/14/2018 08:35:45 PM - masher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_amp.im select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 08:35:45 PM - basher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_amp.im select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 08:36:04 PM - basher - DEBUG : Command = uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_amp.im select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 08:36:04 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       13104  Nant=           8
+ Nchan=        1280  Nbl=         112  Ntime=         117  Space used:     16773120  /    132775200  =    12.6327200     %
+ C-B-T cube
+
+03/14/2018 08:36:04 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  Error opening Dw1_amp.im, in XYOPEN
+### Fatal Error:  File exists
+
+03/14/2018 08:36:04 PM - basher - DEBUG : Returning output.
+03/14/2018 08:36:20 PM - masher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_phase.im select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:36:20 PM - basher - DEBUG : uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_phase.im select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:36:32 PM - basher - DEBUG : Command = uvimage vis=Dw1mir line=channel,1280,8320,1 out=Dw1_phase.im select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:36:32 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       13104  Nant=           8
+ Nchan=        1280  Nbl=         112  Ntime=         117  Space used:     16773120  /    132775200  =    12.6327200     %
+ C-B-T cube
+
+03/14/2018 08:36:32 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  Error opening Dw1_phase.im, in XYOPEN
+### Fatal Error:  File exists
+
+03/14/2018 08:36:32 PM - basher - DEBUG : Returning output.
+03/14/2018 08:39:29 PM - masher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_amp_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:39:29 PM - basher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_amp_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:39:45 PM - basher - DEBUG : Command = uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_amp_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:39:45 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       13104  Nant=           8
+ Nchan=        1280  Nbl=         112  Ntime=         117  Space used:     16773120  /    132775200  =    12.6327200     %
+ T-B-F cube
+ number of records read=  13104
+
+03/14/2018 08:39:45 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+
+03/14/2018 08:39:45 PM - basher - DEBUG : Returning output.
+03/14/2018 08:40:13 PM - masher - DEBUG : fits in=Dw1_amp_freq.im op=xyout out=Dw1_amp_freq.fits 
+03/14/2018 08:40:13 PM - basher - DEBUG : fits in=Dw1_amp_freq.im op=xyout out=Dw1_amp_freq.fits 
+03/14/2018 08:40:14 PM - basher - DEBUG : Command = fits in=Dw1_amp_freq.im op=xyout out=Dw1_amp_freq.fits 
+03/14/2018 08:40:14 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 08:40:14 PM - basher - DEBUG : Returning output.
+03/14/2018 08:40:14 PM - masher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_phase_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:40:14 PM - basher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_phase_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:40:43 PM - basher - DEBUG : Command = uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_phase_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:40:43 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       45869  Nant=           8
+ Nchan=        1280  Nbl=         392  Ntime=         117  Space used:     58705920  /    132775200  =    44.2145233     %
+ T-B-F cube
+ number of records read=  45869
+
+03/14/2018 08:40:43 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 08:40:43 PM - basher - DEBUG : Returning output.
+03/14/2018 08:40:52 PM - masher - DEBUG : fits in=Dw1_phase_freq.im op=xyout out=Dw1_phase_freq.fits 
+03/14/2018 08:40:52 PM - basher - DEBUG : fits in=Dw1_phase_freq.im op=xyout out=Dw1_phase_freq.fits 
+03/14/2018 08:40:54 PM - basher - DEBUG : Command = fits in=Dw1_phase_freq.im op=xyout out=Dw1_phase_freq.fits 
+03/14/2018 08:40:54 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 08:40:54 PM - basher - DEBUG : Returning output.
+03/14/2018 08:48:44 PM - root - INFO : Logging started!
+03/14/2018 08:48:44 PM - root - INFO : To see the log in a bash window use the following command:
+03/14/2018 08:48:44 PM - root - INFO : tail -n +1 -f /home/adams/apertif/AAF/get_data.log
+03/14/2018 08:48:58 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180216005.cfg successfully read! ###
+03/14/2018 08:48:58 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DW1/00/crosscal #
+03/14/2018 08:48:59 PM - masher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_amp_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 08:48:59 PM - basher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_amp_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 08:49:26 PM - basher - DEBUG : Command = uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_amp_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=amplitude 
+03/14/2018 08:49:26 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       45868  Nant=           8
+ Nchan=        1280  Nbl=         392  Ntime=         117  Space used:     58705920  /    132775200  =    44.2145233     %
+ T-B-F cube
+ number of records read=  45868
+
+03/14/2018 08:49:26 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 08:49:26 PM - basher - DEBUG : Returning output.
+03/14/2018 08:50:20 PM - masher - DEBUG : fits in=Dw1_amp_freq.im op=xyout out=Dw1_amp_freq.fits 
+03/14/2018 08:50:20 PM - basher - DEBUG : fits in=Dw1_amp_freq.im op=xyout out=Dw1_amp_freq.fits 
+03/14/2018 08:50:21 PM - basher - DEBUG : Command = fits in=Dw1_amp_freq.im op=xyout out=Dw1_amp_freq.fits 
+03/14/2018 08:50:21 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 08:50:21 PM - basher - DEBUG : Returning output.
+03/14/2018 08:50:26 PM - masher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_phase_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:50:26 PM - basher - DEBUG : uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_phase_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:50:52 PM - basher - DEBUG : Command = uvimage vis=Dw1mir mode=3 line=channel,1280,8320,1 out=Dw1_phase_freq.im options=freq select='-auto,time(11:00:00,12:00:00)' view=phase 
+03/14/2018 08:50:52 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=phase
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       45870  Nant=           8
+ Nchan=        1280  Nbl=         392  Ntime=         117  Space used:     58705920  /    132775200  =    44.2145233     %
+ T-B-F cube
+ number of records read=  45870
+
+03/14/2018 08:50:52 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 08:50:52 PM - basher - DEBUG : Returning output.
+03/14/2018 08:51:49 PM - masher - DEBUG : fits in=Dw1_phase_freq.im op=xyout out=Dw1_phase_freq.fits 
+03/14/2018 08:51:49 PM - basher - DEBUG : fits in=Dw1_phase_freq.im op=xyout out=Dw1_phase_freq.fits 
+03/14/2018 08:51:50 PM - basher - DEBUG : Command = fits in=Dw1_phase_freq.im op=xyout out=Dw1_phase_freq.fits 
+03/14/2018 08:51:50 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 08:51:50 PM - basher - DEBUG : Returning output.
+03/14/2018 08:51:53 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/AAF/180302009.cfg successfully read! ###
+03/14/2018 08:51:53 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/AAF_DR21/00/crosscal #
+03/14/2018 08:52:00 PM - masher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp_freq.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:52:00 PM - basher - DEBUG : uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp_freq.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:53:01 PM - basher - DEBUG : Command = uvimage vis=DR21mir line=channel,1280,8320,1 out=DR21_amp_freq.im select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:53:01 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       58504  Nant=          11
+ Nchan=        1280  Nbl=         500  Ntime=         117  Space used:     74880000  /    132775200  =    56.3960724     %
+ C-B-T cube
+ number of records read=  58504
+
+03/14/2018 08:53:01 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 08:53:01 PM - basher - DEBUG : Returning output.
+03/14/2018 08:56:10 PM - masher - DEBUG : uvimage vis=DR21mir mode=3 line=channel,1280,8320,1 out=DR21_amp_freq.im options=freq select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:56:10 PM - basher - DEBUG : uvimage vis=DR21mir mode=3 line=channel,1280,8320,1 out=DR21_amp_freq.im options=freq select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:57:05 PM - basher - DEBUG : Command = uvimage vis=DR21mir mode=3 line=channel,1280,8320,1 out=DR21_amp_freq.im options=freq select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:57:05 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       58505  Nant=          11
+ Nchan=        1280  Nbl=         500  Ntime=         117  Space used:     74880000  /    132775200  =    56.3960724     %
+ T-B-F cube
+ number of records read=  58505
+
+03/14/2018 08:57:05 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 08:57:05 PM - basher - DEBUG : Returning output.
+03/14/2018 08:57:25 PM - masher - DEBUG : fits in=DR21_amp_freq.im op=xyout out=DR21_amp_freq.fits 
+03/14/2018 08:57:25 PM - basher - DEBUG : fits in=DR21_amp_freq.im op=xyout out=DR21_amp_freq.fits 
+03/14/2018 08:57:27 PM - basher - DEBUG : Command = fits in=DR21_amp_freq.im op=xyout out=DR21_amp_freq.fits 
+03/14/2018 08:57:27 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 08:57:27 PM - basher - DEBUG : Returning output.
+03/14/2018 08:57:27 PM - masher - DEBUG : uvimage vis=DR21mir mode=3 line=channel,1280,8320,1 out=DR21_phase_freq.im options=freq select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:57:27 PM - basher - DEBUG : uvimage vis=DR21mir mode=3 line=channel,1280,8320,1 out=DR21_phase_freq.im options=freq select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:58:20 PM - basher - DEBUG : Command = uvimage vis=DR21mir mode=3 line=channel,1280,8320,1 out=DR21_phase_freq.im options=freq select='-auto,time(04:00:00,05:00:00)' view=amplitude 
+03/14/2018 08:58:20 PM - basher - DEBUG : 
+UVIMAGE: version 15-mar-2013
+Mapping view=amplitude
+ Est. Integration time =    30.719000000000001      s
+ Nvis=       58505  Nant=          11
+ Nchan=        1280  Nbl=         500  Ntime=         117  Space used:     74880000  /    132775200  =    56.3960724     %
+ T-B-F cube
+ number of records read=  58505
+
+03/14/2018 08:58:20 PM - basher - DEBUG : ### Informational:  Visibility datatype is real (r)
+### Warning:  No regular baseline set, losing ants perhaps?
+
+03/14/2018 08:58:20 PM - basher - DEBUG : Returning output.
+03/14/2018 08:58:43 PM - masher - DEBUG : fits in=DR21_phase_freq.im op=xyout out=DR21_phase_freq.fits 
+03/14/2018 08:58:43 PM - basher - DEBUG : fits in=DR21_phase_freq.im op=xyout out=DR21_phase_freq.fits 
+03/14/2018 08:58:44 PM - basher - DEBUG : Command = fits in=DR21_phase_freq.im op=xyout out=DR21_phase_freq.fits 
+03/14/2018 08:58:44 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+03/14/2018 08:58:44 PM - basher - DEBUG : Returning output.
