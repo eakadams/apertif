@@ -103,7 +103,7 @@ uvimage.select="'-auto,time(04:00:00,05:00:00)'"
 uvimage.line='channel,1280,8320,1'
 uvimage.go()
 
-
+fits.in_ = uvimage.out
 fits.out = targetname+'_amp.fits'
 fits.go()
 
