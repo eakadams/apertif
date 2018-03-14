@@ -8,6 +8,9 @@
 import libs.lib as lib
 import apercal
 
+#start a log
+lib.setup_logger('info', logfile='/home/adams/apertif/AAF/get_data.log')
+
 #I am getting two different datasets:
 #180216005 (Dwingeloo 1)
 #180302009 (DR21)
@@ -18,7 +21,6 @@ cfg2 = '/home/adams/apertif/AAF/180302009.cfg'
 
 #Prepare data using Apercal
 #This copies to directory defined in cfgfile
-"""
 prepare = apercal.prepare(cfg1)
 prepare.go()
 
@@ -32,7 +34,6 @@ convert.go()
 
 convert = apercal.convert(cfg2)
 convert.go()
-"""
 
 #Now in miriad need to use uvimage to create image cube
 #Want to limit number of channels
@@ -41,21 +42,32 @@ convert.go()
 #take subbands 130-149
 #channels 8320, 9599
 
-print 'starting to get data'
 
-uvimage = lib.miriad('uvimage')
 #move to directory where data is
 ccal = apercal.ccal(cfg1)
 ccal.director('ch', ccal.crosscaldir)
-uvimage.vis = ccal.target
-print uvimage.vis
-uvimage.line='channel,1280,8320,1'
-uvimage.view = 'amplitude'
-targetname = ccal.target[:-4]
-uvimage.out= targetname+'_amp.im'
-uvimage.go()
 
-print 'got uv amp image'
+"""
+#First use uvaver to select channels
+#uvimage complains about too much data otherwise
+uvaver = lib.miriad('uvaver')
+uvaver.line='channel,1280,8320,1'
+uvaver.vis = ccal.target+'mir'
+uvaver.select='-auto'
+uvaver.out=ccal.target+'tmp.mir'
+uvaver.go()
+"""
+
+uvimage = lib.miriad('uvimage')
+uvimage.vis = ccal.target+'mir' #uvaver.out
+uvimage.view = 'amplitude'
+targetname = ccal.target
+uvimage.out= targetname+'_amp.im'
+#still too much data so also select a time range
+#parentheses in command so need double quote
+uvimage.select="'-auto,time(11:00:00,12:00:00)'"
+uvimage.line='channel,1280,8320,1'
+uvimage.go()
 
 #write to fits file
 fits = lib.miriad('fits')
@@ -64,7 +76,6 @@ fits.op = "xyout"
 fits.out = targetname+'_amp.fits'
 fits.go()
 
-print 'got fits image'
 
 #now do phase
 uvimage.view='phase'
@@ -76,14 +87,22 @@ fits.out = targetname+'_phase.fits'
 fits.go()
 
 #and now do the second source
+#move directory
 ccal = apercal.ccal(cfg2)
 ccal.director('ch', ccal.crosscaldir)
-uvimage.vis = ccal.target
-#uvimage.line='channel,1280,8320,1'
+
+#get subset of data
+uvimage = lib.miriad('uvimage')
+uvimage.vis = ccal.target+'mir' #uvaver.out
 uvimage.view = 'amplitude'
-targetname = ccal.target[:-4]
+targetname = ccal.target
 uvimage.out= targetname+'_amp.im'
+#still too much data so also select a time range
+#parentheses in command so need double quote
+uvimage.select="'-auto,time(04:00:00,05:00:00)'"
+uvimage.line='channel,1280,8320,1'
 uvimage.go()
+
 
 fits.out = targetname+'_amp.fits'
 fits.go()
