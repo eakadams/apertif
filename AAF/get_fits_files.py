@@ -80,6 +80,8 @@ uvimage.out= targetname+'_amp_freq.im'
 #parentheses in command so need double quote
 uvimage.select="'-auto,time(04:00:00,05:00:00)'"
 uvimage.line='channel,1280,8320,1'
+uvimage.options = 'freq'
+uvimage.mode=3
 uvimage.go()
 
 fits.in_ = uvimage.out
@@ -92,6 +94,8 @@ uvimage.out=targetname+'_phase_freq.im'
 uvimage.view = 'amplitude'
 uvimage.select="'-auto,time(04:00:00,05:00:00)'"
 uvimage.line='channel,1280,8320,1'
+uvimage.options = 'freq'
+uvimage.mode=3
 uvimage.go()
 
 fits.in_ = uvimage.out
