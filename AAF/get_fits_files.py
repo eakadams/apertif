@@ -91,7 +91,6 @@ fits.go()
 #and phase of second source
 uvimage.view='phase'
 uvimage.out=targetname+'_phase_freq.im'
-uvimage.view = 'amplitude'
 uvimage.select="'-auto,time(04:00:00,05:00:00)'"
 uvimage.line='channel,1280,8320,1'
 uvimage.options = 'freq'
