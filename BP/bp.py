@@ -82,7 +82,7 @@ def get_norm_bpsols(values,freqs,nchan=8,normscan=0):
 
 #################
 
-def plot_bp_per_ant(values,freqs,tnames,nchan=8,nx=3,norm=True,normscan=0,offset=0.1,ymin=0,ymax=0,plotsize=4):
+def plot_bp_per_ant(values,freqs,tnames,nchan=8,nx=3,norm=True,normscan=0,offset=0.1,ymin=0,ymax=0,xs=3,ys=3):
     #input values and freqs, then average and normalize as desired
     #need list of telescope names explicitly; this is not in data
     #how to offset solutions from each other
@@ -102,8 +102,8 @@ def plot_bp_per_ant(values,freqs,tnames,nchan=8,nx=3,norm=True,normscan=0,offset
     ny = int(np.ceil(nplots/float(nx)))
     #and set up size that I will want
     #say 3 inches per plot
-    xsize = nx*plotsize
-    ysize = ny*plotsize
+    xsize = nx*xs
+    ysize = ny*ys
     #and I want global limits, for best comparison
     #this could potentially change
     #will have a total offset of 
