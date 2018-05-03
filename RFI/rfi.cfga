@@ -3,22 +3,22 @@ apercaldir = '/home/adams/apercal'
 fluxcal = ''
 polcal = ''
 target = ''
-basedir = '/data/adams/apertif/busydays/RFI/'
+basedir = '/data/adams/apertif/busydays/RFI/110311_nb/'
 beam = 'B000'
 rawsubdir = 'raw'
 linesubdir = 'line'
 contsubdir = 'continuum'
 contname = ' '					#name without extension (can be .mir or fits, automatically read)
 cubename = ' '
-msname = ['WSRTA180309008_B000.MS']
+msname = ['WSRTA110311_B000.MS']
 
 [RFI]
-aperfi_rfi_flagfile= ['180309008.MS']
+aperfi_rfi_flagfile= ['1110311.MS']
 aperfi_uvaver = True              	#uv-dataset needs to be averaged down to <5000 channels 
-aperfi_badant = '[]'
+aperfi_badant = [4]
 aperfi_rmsclip = 5
-aperfi_rfifree_min = 1.422e9           	#Frequency range where to compute rms: RFI free in Hz
-aperfi_rfifree_max = 1.430e9           	#Frequency range where to compute rms: RFI free in Hz
+aperfi_rfifree_min = 1.280e9           	#Frequency range where to compute rms: RFI free in Hz
+aperfi_rfifree_max = 1.300e9           	#Frequency range where to compute rms: RFI free in Hz
 aperfi_plot_noise = 'rfi'
 aperfi_plot_long_short = False
 
