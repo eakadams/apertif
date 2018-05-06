@@ -1,0 +1,185 @@
+05/04/2018 01:18:19 PM - root - INFO : Logging started!
+05/04/2018 01:18:19 PM - root - INFO : To see the log in a bash window use the following command:
+05/04/2018 01:18:19 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/logs/180503001.log
+05/04/2018 02:03:16 PM - CONVERT - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:03:16 PM - CONVERT - INFO : ########## FILE CONVERSION started ##########
+05/04/2018 02:03:16 PM - CONVERT - INFO : ### Starting conversion from MS to UVFITS format ###
+05/04/2018 02:07:38 PM - CONVERT - INFO : ### Converted MS file 3C286.MS to UVFITS format! ###
+05/04/2018 02:08:21 PM - CONVERT - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:08:21 PM - CONVERT - INFO : ########## FILE CONVERSION started ##########
+05/04/2018 02:08:21 PM - CONVERT - INFO : ### Starting conversion from MS to UVFITS format ###
+05/04/2018 02:08:44 PM - CONVERT - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:08:44 PM - CONVERT - WARNING : ### Deleting all converted data. ###
+05/04/2018 02:08:44 PM - basher - DEBUG : rm -r /data/adams/apertif/180503001/00/crosscal/*
+05/04/2018 02:08:51 PM - basher - DEBUG : Returning output.
+05/04/2018 02:08:51 PM - CONVERT - INFO : ########## FILE CONVERSION started ##########
+05/04/2018 02:08:51 PM - CONVERT - INFO : ### Starting conversion from MS to UVFITS format ###
+05/04/2018 02:13:06 PM - CONVERT - INFO : ### Converted MS file 3C286.MS to UVFITS format! ###
+05/04/2018 02:13:06 PM - CONVERT - INFO : ### Conversion from MS to UVFITS format done! ###
+05/04/2018 02:13:06 PM - CONVERT - INFO : ### Starting conversion from UVFITS to MIRIAD format ###
+05/04/2018 02:13:06 PM - masher - DEBUG : fits in=/data/adams/apertif/180503001/00/crosscal/3C286.UVFITS op=uvin out=/data/adams/apertif/180503001/00/crosscal/3C286.mir 
+05/04/2018 02:13:06 PM - basher - DEBUG : fits in=/data/adams/apertif/180503001/00/crosscal/3C286.UVFITS op=uvin out=/data/adams/apertif/180503001/00/crosscal/3C286.mir 
+05/04/2018 02:15:40 PM - basher - DEBUG : Command = fits in=/data/adams/apertif/180503001/00/crosscal/3C286.UVFITS op=uvin out=/data/adams/apertif/180503001/00/crosscal/3C286.mir 
+05/04/2018 02:15:40 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+Determining various defaults ...
+  Assuming systemp=30
+  Assuming jyperk=8
+
+Analysing the extension tables ...
+  Using antenna table information
+  Using frequency table information
+  Using source table information
+
+Handling the visibility data
+  Data are linearly polarized
+  Reading the correlation data
+  The estimated integration time of a sample is 31 seconds
+  Number of antennas: 10
+  Number of antenna configurations: 1
+
+05/04/2018 02:15:40 PM - basher - DEBUG : ### Warning:  1 unrecognised cards were written to the history file
+### Warning:  Ignored random parameter INTTIM
+### Warning:  Some visibilities had zero weight
+
+05/04/2018 02:15:40 PM - basher - DEBUG : Returning output.
+05/04/2018 02:15:40 PM - basher - DEBUG : rm -r /data/adams/apertif/180503001/00/crosscal/3C286.UVFITS
+05/04/2018 02:15:47 PM - basher - DEBUG : Returning output.
+05/04/2018 02:15:47 PM - CONVERT - INFO : ### Converted UVFITS file 3C286.MS to MIRIAD format! ###
+05/04/2018 02:15:47 PM - CONVERT - INFO : ### Conversion from UVFITS to MIRIAD format done! ###
+05/04/2018 02:15:47 PM - CONVERT - INFO : ########## FILE CONVERSION done ##########
+05/04/2018 02:32:25 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:34:52 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:37:23 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:38:43 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:38:49 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:38:49 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:38:49 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:45:29 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:45:29 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+Making MFS images
+Visibilities accepted: 547096210
+Mean Frequency(GHz):     1.34
+Sidelobe suppression area is 32768x32768 arcsec
+ ... this corresponds to uniform weighting
+Calculating the weights ...
+Applying the weights ...
+Theoretical rms noise: 2.458E-05
+Forming the beam ...
+Finished gridding  50% ...
+Forming Stokes I  image ...
+Completed 100% !
+
+05/04/2018 02:45:29 PM - basher - DEBUG : ### Warning:  Visibilities rejected: 846846830
+
+05/04/2018 02:45:29 PM - basher - DEBUG : Returning output.
+05/04/2018 02:48:07 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:48:07 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:48:07 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:48:07 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:48:07 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+
+05/04/2018 02:48:07 PM - basher - DEBUG : ### Fatal Error:  Illegal channel range specified, in UVREAD
+
+05/04/2018 02:48:07 PM - basher - DEBUG : Returning output.
+05/04/2018 02:48:24 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:48:32 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:48:32 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:48:32 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:48:32 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:48:32 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+
+05/04/2018 02:48:32 PM - basher - DEBUG : ### Fatal Error:  Illegal channel range specified, in UVREAD
+
+05/04/2018 02:48:32 PM - basher - DEBUG : Returning output.
+05/04/2018 02:49:14 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:49:14 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:49:14 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:49:14 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:49:14 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+
+05/04/2018 02:49:14 PM - basher - DEBUG : ### Fatal Error:  Illegal channel range specified, in UVREAD
+
+05/04/2018 02:49:14 PM - basher - DEBUG : Returning output.
+05/04/2018 02:50:37 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:50:37 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line="chan,1920,4992,64,64" stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:50:37 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line="chan,1920,4992,64,64" stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:50:37 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line="chan,1920,4992,64,64" stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:50:37 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+
+05/04/2018 02:50:37 PM - basher - DEBUG : ### Fatal Error:  Illegal channel range specified, in UVREAD
+
+05/04/2018 02:50:37 PM - basher - DEBUG : Returning output.
+05/04/2018 02:50:52 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:50:52 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line="chan",1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:50:52 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line="chan",1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:50:52 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line="chan",1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:50:52 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+
+05/04/2018 02:50:52 PM - basher - DEBUG : ### Fatal Error:  Illegal channel range specified, in UVREAD
+
+05/04/2018 02:50:52 PM - basher - DEBUG : Returning output.
+05/04/2018 02:52:34 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:52:34 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=channel,1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:52:34 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=channel,1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:52:34 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=channel,1920,4992,64,64 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:52:34 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+
+05/04/2018 02:52:34 PM - basher - DEBUG : ### Fatal Error:  Illegal channel range specified, in UVREAD
+
+05/04/2018 02:52:34 PM - basher - DEBUG : Returning output.
+05/04/2018 02:54:07 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001.cfg successfully read! ###
+05/04/2018 02:54:07 PM - masher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,1920,4992 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:54:07 PM - basher - DEBUG : invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,1920,4992 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:56:04 PM - basher - DEBUG : Command = invert map=dirty_nocal slop=0.9 beam=beam_dnc cell=4 vis=3C286.mir robust=-1 line=chan,1920,4992 stokes=ii options=mfs,double imsize=2049 
+05/04/2018 02:56:04 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+Making MFS images
+Visibilities accepted: 137290832
+Mean Frequency(GHz):     1.32
+Sidelobe suppression area is 32768x32768 arcsec
+ ... this corresponds to uniform weighting
+Calculating the weights ...
+Applying the weights ...
+Theoretical rms noise: 5.057E-05
+Forming the beam ...
+Finished gridding  50% ...
+Forming Stokes I  image ...
+Completed 100% !
+
+05/04/2018 02:56:04 PM - basher - DEBUG : ### Warning:  Visibilities rejected: 105838768
+
+05/04/2018 02:56:04 PM - basher - DEBUG : Returning output.

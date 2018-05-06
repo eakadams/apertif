@@ -1,0 +1,264 @@
+03/15/2018 09:02:55 AM - root - INFO : Logging started!
+03/15/2018 09:02:55 AM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 09:02:55 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 09:03:01 AM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/15/2018 09:03:02 AM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+03/15/2018 09:03:02 AM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+03/15/2018 09:03:06 AM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+03/15/2018 09:03:06 AM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+03/15/2018 09:03:06 AM - basher - DEBUG : Returning output.
+03/15/2018 09:23:13 AM - root - INFO : Logging started!
+03/15/2018 09:23:13 AM - root - INFO : Logging started!
+03/15/2018 09:23:13 AM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 09:23:13 AM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 09:23:13 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 09:23:13 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 11:39:20 AM - root - INFO : Logging started!
+03/15/2018 11:39:20 AM - root - INFO : Logging started!
+03/15/2018 11:39:20 AM - root - INFO : Logging started!
+03/15/2018 11:39:20 AM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 11:39:20 AM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 11:39:20 AM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 11:39:20 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 11:39:20 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 11:39:20 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 12:50:31 PM - root - INFO : Logging started!
+03/15/2018 12:50:31 PM - root - INFO : Logging started!
+03/15/2018 12:50:31 PM - root - INFO : Logging started!
+03/15/2018 12:50:31 PM - root - INFO : Logging started!
+03/15/2018 12:50:31 PM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 12:50:31 PM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 12:50:31 PM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 12:50:31 PM - root - INFO : To see the log in a bash window use the following command:
+03/15/2018 12:50:31 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 12:50:31 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 12:50:31 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/15/2018 12:50:31 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/30/2018 02:55:11 PM - root - INFO : Logging started!
+03/30/2018 02:55:11 PM - root - INFO : Logging started!
+03/30/2018 02:55:11 PM - root - INFO : Logging started!
+03/30/2018 02:55:11 PM - root - INFO : Logging started!
+03/30/2018 02:55:11 PM - root - INFO : Logging started!
+03/30/2018 02:55:12 PM - root - INFO : To see the log in a bash window use the following command:
+03/30/2018 02:55:12 PM - root - INFO : To see the log in a bash window use the following command:
+03/30/2018 02:55:12 PM - root - INFO : To see the log in a bash window use the following command:
+03/30/2018 02:55:12 PM - root - INFO : To see the log in a bash window use the following command:
+03/30/2018 02:55:12 PM - root - INFO : To see the log in a bash window use the following command:
+03/30/2018 02:55:12 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/30/2018 02:55:12 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/30/2018 02:55:12 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/30/2018 02:55:12 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/30/2018 02:55:12 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/busydays/bp_rc_after/00/crosscal #
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/busydays/bp_rc_after/00/crosscal #
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/busydays/bp_rc_after/00/crosscal #
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/busydays/bp_rc_after/00/crosscal #
+03/30/2018 02:55:13 PM - CROSSCAL - INFO : # Moved to directory /data/adams/apertif/busydays/bp_rc_after/00/crosscal #
+03/30/2018 02:55:13 PM - masher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:13 PM - masher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:13 PM - masher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:13 PM - masher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:13 PM - masher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:14 PM - basher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:14 PM - basher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:14 PM - basher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:14 PM - basher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 02:55:14 PM - basher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 03:06:37 PM - basher - DEBUG : Command = mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 03:06:37 PM - basher - DEBUG : Command = mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 03:06:37 PM - basher - DEBUG : Command = mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 03:06:37 PM - basher - DEBUG : Command = mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 03:06:37 PM - basher - DEBUG : Command = mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286.mir 
+03/30/2018 03:06:37 PM - basher - DEBUG : 
+MfCal: $Revision: 1.20 $, $Date: 2017/05/08 02:31:10 $
+Reading the data ...
+Number correlations accepted: 56559035
+Number of frequency bands/settings: 1
+Number of polarisations selected: 1
+Number of solution intervals: 24
+Number of passband solution intervals: 24
+Initialising ...
+Using known frequency variation of 3c286
+Generating initial solution estimate ...
+Doing solution refinement ...
+Iter= 1, Solution Error:  0.935
+Iter= 2, Solution Error:  1.000
+Iter= 3, Solution Error:  0.057
+Saving solution ...
+
+03/30/2018 03:06:37 PM - basher - DEBUG : 
+MfCal: $Revision: 1.20 $, $Date: 2017/05/08 02:31:10 $
+Reading the data ...
+Number correlations accepted: 56559035
+Number of frequency bands/settings: 1
+Number of polarisations selected: 1
+Number of solution intervals: 24
+Number of passband solution intervals: 24
+Initialising ...
+Using known frequency variation of 3c286
+Generating initial solution estimate ...
+Doing solution refinement ...
+Iter= 1, Solution Error:  0.935
+Iter= 2, Solution Error:  1.000
+Iter= 3, Solution Error:  0.057
+Saving solution ...
+
+03/30/2018 03:06:37 PM - basher - DEBUG : 
+MfCal: $Revision: 1.20 $, $Date: 2017/05/08 02:31:10 $
+Reading the data ...
+Number correlations accepted: 56559035
+Number of frequency bands/settings: 1
+Number of polarisations selected: 1
+Number of solution intervals: 24
+Number of passband solution intervals: 24
+Initialising ...
+Using known frequency variation of 3c286
+Generating initial solution estimate ...
+Doing solution refinement ...
+Iter= 1, Solution Error:  0.935
+Iter= 2, Solution Error:  1.000
+Iter= 3, Solution Error:  0.057
+Saving solution ...
+
+03/30/2018 03:06:37 PM - basher - DEBUG : 
+MfCal: $Revision: 1.20 $, $Date: 2017/05/08 02:31:10 $
+Reading the data ...
+Number correlations accepted: 56559035
+Number of frequency bands/settings: 1
+Number of polarisations selected: 1
+Number of solution intervals: 24
+Number of passband solution intervals: 24
+Initialising ...
+Using known frequency variation of 3c286
+Generating initial solution estimate ...
+Doing solution refinement ...
+Iter= 1, Solution Error:  0.935
+Iter= 2, Solution Error:  1.000
+Iter= 3, Solution Error:  0.057
+Saving solution ...
+
+03/30/2018 03:06:37 PM - basher - DEBUG : 
+MfCal: $Revision: 1.20 $, $Date: 2017/05/08 02:31:10 $
+Reading the data ...
+Number correlations accepted: 56559035
+Number of frequency bands/settings: 1
+Number of polarisations selected: 1
+Number of solution intervals: 24
+Number of passband solution intervals: 24
+Initialising ...
+Using known frequency variation of 3c286
+Generating initial solution estimate ...
+Doing solution refinement ...
+Iter= 1, Solution Error:  0.935
+Iter= 2, Solution Error:  1.000
+Iter= 3, Solution Error:  0.057
+Saving solution ...
+
+03/30/2018 03:06:37 PM - basher - DEBUG : ### Warning:  Correlations flagged or edge-rejected: 28626372
+
+03/30/2018 03:06:37 PM - basher - DEBUG : ### Warning:  Correlations flagged or edge-rejected: 28626372
+
+03/30/2018 03:06:37 PM - basher - DEBUG : ### Warning:  Correlations flagged or edge-rejected: 28626372
+
+03/30/2018 03:06:37 PM - basher - DEBUG : ### Warning:  Correlations flagged or edge-rejected: 28626372
+
+03/30/2018 03:06:37 PM - basher - DEBUG : ### Warning:  Correlations flagged or edge-rejected: 28626372
+
+03/30/2018 03:06:37 PM - basher - DEBUG : Returning output.
+03/30/2018 03:06:37 PM - basher - DEBUG : Returning output.
+03/30/2018 03:06:37 PM - basher - DEBUG : Returning output.
+03/30/2018 03:06:37 PM - basher - DEBUG : Returning output.
+03/30/2018 03:06:37 PM - basher - DEBUG : Returning output.
+03/30/2018 03:08:09 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:08:09 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:08:09 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:08:09 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:08:09 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:08:09 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:09 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:14 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:14 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:14 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:14 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:14 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+03/30/2018 03:08:14 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+03/30/2018 03:08:14 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+03/30/2018 03:08:14 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+03/30/2018 03:08:14 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+03/30/2018 03:08:14 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+03/30/2018 03:08:14 PM - basher - DEBUG : Returning output.
+03/30/2018 03:08:14 PM - basher - DEBUG : Returning output.
+03/30/2018 03:08:14 PM - basher - DEBUG : Returning output.
+03/30/2018 03:08:14 PM - basher - DEBUG : Returning output.
+03/30/2018 03:08:14 PM - basher - DEBUG : Returning output.
+03/30/2018 03:10:20 PM - root - INFO : Logging started!
+03/30/2018 03:10:20 PM - root - INFO : To see the log in a bash window use the following command:
+03/30/2018 03:10:20 PM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+03/30/2018 03:10:29 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:11:28 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:11:45 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+03/30/2018 03:11:45 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+03/30/2018 03:11:45 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+03/30/2018 03:11:49 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+03/30/2018 03:11:49 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+03/30/2018 03:11:49 PM - basher - DEBUG : Returning output.
+04/05/2018 10:44:52 AM - root - INFO : Logging started!
+04/05/2018 10:44:52 AM - root - INFO : Logging started!
+04/05/2018 10:44:52 AM - root - INFO : To see the log in a bash window use the following command:
+04/05/2018 10:44:52 AM - root - INFO : To see the log in a bash window use the following command:
+04/05/2018 10:44:53 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+04/05/2018 10:44:53 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+04/05/2018 10:45:14 AM - root - INFO : Logging started!
+04/05/2018 10:45:14 AM - root - INFO : To see the log in a bash window use the following command:
+04/05/2018 10:45:14 AM - root - INFO : tail -n +1 -f /home/adams/apertif/BP/8030111_3C286_0.log
+04/05/2018 10:45:18 AM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/8030111_3C286_0.cfg successfully read! ###
+04/05/2018 10:45:18 AM - masher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+04/05/2018 10:45:18 AM - basher - DEBUG : gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+04/05/2018 10:45:22 AM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/busydays/bp_rc_after/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+04/05/2018 10:45:22 AM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+04/05/2018 10:45:22 AM - basher - DEBUG : Returning output.
