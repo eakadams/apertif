@@ -183,3 +183,109 @@ Completed 100% !
 05/04/2018 02:56:04 PM - basher - DEBUG : ### Warning:  Visibilities rejected: 105838768
 
 05/04/2018 02:56:04 PM - basher - DEBUG : Returning output.
+05/07/2018 01:31:10 AM - masher - DEBUG : fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:31:10 AM - basher - DEBUG : fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:31:10 AM - basher - DEBUG : Command = fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:31:10 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+05/07/2018 01:31:10 AM - basher - DEBUG : Returning output.
+05/07/2018 01:31:42 AM - masher - DEBUG : fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:31:42 AM - basher - DEBUG : fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:31:43 AM - basher - DEBUG : Command = fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:31:43 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+05/07/2018 01:31:43 AM - basher - DEBUG : Returning output.
+05/07/2018 01:32:14 AM - masher - DEBUG : fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:32:14 AM - basher - DEBUG : fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:32:14 AM - basher - DEBUG : Command = fits in=dirty_nocal out=dirty_nocal.fits op=xyout 
+05/07/2018 01:32:14 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+05/07/2018 01:32:14 AM - basher - DEBUG : Returning output.
+05/07/2018 06:29:35 PM - masher - DEBUG : uvedit vis=3C286.mir dec=30,30,33 ra=13,31,08.3 out=3C286_uvedit.mir 
+05/07/2018 06:29:35 PM - basher - DEBUG : uvedit vis=3C286.mir dec=30,30,33 ra=13,31,08.3 out=3C286_uvedit.mir 
+05/07/2018 06:33:01 PM - basher - DEBUG : Command = uvedit vis=3C286.mir dec=30,30,33 ra=13,31,08.3 out=3C286_uvedit.mir 
+05/07/2018 06:33:01 PM - basher - DEBUG : 
+UVEDIT: version 1.8 24-Jul-2014
+UVEDIT: Editing visibility file: 3C286.mir
+UVEDIT: Writing visibilities to: 3C286_uvedit.mir
+
+05/07/2018 06:33:01 PM - basher - DEBUG : Returning output.
+05/07/2018 06:55:31 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001_uvedit.cfg successfully read! ###
+05/07/2018 06:55:31 PM - masher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286_uvedit.mir 
+05/07/2018 06:55:31 PM - basher - DEBUG : mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286_uvedit.mir 
+05/07/2018 07:02:30 PM - basher - DEBUG : Command = mfcal stokes=XX interval=30,30,30 options=delay tol=0.1 vis=3C286_uvedit.mir 
+05/07/2018 07:02:30 PM - basher - DEBUG : 
+MfCal: $Revision: 1.20 $, $Date: 2017/05/08 02:31:10 $
+Reading the data ...
+Number correlations accepted: 27354810
+Number of frequency bands/settings: 1
+Number of polarisations selected: 1
+Number of solution intervals: 24
+Number of passband solution intervals: 24
+Initialising ...
+Using known frequency variation of 3c286
+Generating initial solution estimate ...
+Doing solution refinement ...
+Iter= 1, Solution Error:  0.871
+Iter= 2, Solution Error:  1.000
+Iter= 3, Solution Error:  0.037
+Saving solution ...
+
+05/07/2018 07:02:30 PM - basher - DEBUG : ### Warning:  Correlations flagged or edge-rejected: 42342341
+
+05/07/2018 07:02:30 PM - basher - DEBUG : Returning output.
+05/07/2018 07:04:12 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001_uvedit.cfg successfully read! ###
+05/07/2018 07:04:12 PM - masher - DEBUG : invert map=dirty_nc_uvedit slop=0.9 beam=beam_dnc_uve cell=4 vis=3C286_uvedit.mir robust=-1 line=chan,1920,4992 stokes=ii options=mfs,double imsize=2049 
+05/07/2018 07:04:12 PM - basher - DEBUG : invert map=dirty_nc_uvedit slop=0.9 beam=beam_dnc_uve cell=4 vis=3C286_uvedit.mir robust=-1 line=chan,1920,4992 stokes=ii options=mfs,double imsize=2049 
+05/07/2018 07:09:50 PM - basher - DEBUG : Command = invert map=dirty_nc_uvedit slop=0.9 beam=beam_dnc_uve cell=4 vis=3C286_uvedit.mir robust=-1 line=chan,1920,4992 stokes=ii options=mfs,double imsize=2049 
+05/07/2018 07:09:50 PM - basher - DEBUG : 
+
+invert: Revision 1.22, 2016/01/20 03:03:49 UTC
+
+Reading the visibility data ...
+Applying bandpass corrections to 3C286_uvedit.mir
+Applying gain corrections to 3C286_uvedit.mir
+Making MFS images
+Visibilities accepted: 137290486
+Mean Frequency(GHz):     1.32
+Sidelobe suppression area is 32768x32768 arcsec
+ ... this corresponds to uniform weighting
+Calculating the weights ...
+Applying the weights ...
+Theoretical rms noise: 5.056E-05
+Forming the beam ...
+Finished gridding  50% ...
+Forming Stokes I  image ...
+Completed 100% !
+
+05/07/2018 07:09:50 PM - basher - DEBUG : ### Warning:  Visibilities rejected: 105839114
+
+05/07/2018 07:09:50 PM - basher - DEBUG : Returning output.
+05/07/2018 07:10:32 PM - masher - DEBUG : fits in=dirty_nc_uvedit out=dirty_nc_uvedit.fits op=xyout 
+05/07/2018 07:10:32 PM - basher - DEBUG : fits in=dirty_nc_uvedit out=dirty_nc_uvedit.fits op=xyout 
+05/07/2018 07:10:33 PM - basher - DEBUG : Command = fits in=dirty_nc_uvedit out=dirty_nc_uvedit.fits op=xyout 
+05/07/2018 07:10:33 PM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+05/07/2018 07:10:33 PM - basher - DEBUG : Returning output.
+05/07/2018 07:18:36 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/180503001_uvedit.cfg successfully read! ###
+05/07/2018 07:18:36 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/180503001/00/crosscal/3C286_uvedit.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+05/07/2018 07:18:36 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/180503001/00/crosscal/3C286_uvedit.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+05/07/2018 07:18:40 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/180503001/00/crosscal/3C286_uvedit.mir log=/home/adams/apercal/temp/mirlog/C2DB8VHL options=bandpass 
+05/07/2018 07:18:40 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+05/07/2018 07:18:40 PM - basher - DEBUG : Returning output.
