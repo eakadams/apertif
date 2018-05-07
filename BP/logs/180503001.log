@@ -289,3 +289,25 @@ gpplt: Revision (not recorded)
 
 
 05/07/2018 07:18:40 PM - basher - DEBUG : Returning output.
+05/07/2018 08:59:29 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/8022706.cfg successfully read! ###
+05/07/2018 09:00:03 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/8022706.cfg successfully read! ###
+05/07/2018 09:00:28 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/8022706.cfg successfully read! ###
+05/07/2018 09:00:29 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/8022706/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+05/07/2018 09:00:29 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/8022706/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+05/07/2018 09:00:33 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/8022706/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/1IYQDAU1 options=bandpass 
+05/07/2018 09:00:33 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+05/07/2018 09:00:33 PM - basher - DEBUG : Returning output.
+05/07/2018 09:00:58 PM - CROSSCAL - INFO : ### Configuration file /home/adams/apertif/BP/cfg/8030111.cfg successfully read! ###
+05/07/2018 09:00:59 PM - masher - DEBUG : gpplt vis=/data/adams/apertif/8030111/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/3UHIHLSB options=bandpass 
+05/07/2018 09:00:59 PM - basher - DEBUG : gpplt vis=/data/adams/apertif/8030111/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/3UHIHLSB options=bandpass 
+05/07/2018 09:01:03 PM - basher - DEBUG : Command = gpplt vis=/data/adams/apertif/8030111/00/crosscal/3C286.mir log=/home/adams/apercal/temp/mirlog/3UHIHLSB options=bandpass 
+05/07/2018 09:01:03 PM - basher - DEBUG : 
+
+gpplt: Revision (not recorded)
+
+
+05/07/2018 09:01:03 PM - basher - DEBUG : Returning output.
