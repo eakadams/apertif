@@ -34929,3 +34929,25 @@ imcomb: Revision 1.11, 2013/08/30 01:49:21 UTC
 04/16/2018 02:27:53 PM - CONTINUUM - INFO : ### Final deep continuum image is /data/adams/apertif/AGC749237/00/continuum/AGC749237_stack ###
 04/16/2018 02:27:53 PM - CONTINUUM - INFO : ### Deep continuum imaging of full dataset done ###
 04/16/2018 02:27:53 PM - CONTINUUM - INFO : ########## CONTINUUM IMAGING done ##########
+04/19/2018 10:50:54 AM - masher - DEBUG : linmos cutoff=0.3 in=/data/adams/apertif/AGC749237/00/continuum/AGC749237_stack out=/data/adams/apertif/AGC749237/AGC749237_RC 
+04/19/2018 10:50:55 AM - basher - DEBUG : linmos cutoff=0.3 in=/data/adams/apertif/AGC749237/00/continuum/AGC749237_stack out=/data/adams/apertif/AGC749237/AGC749237_RC 
+04/19/2018 10:50:55 AM - basher - DEBUG : Command = linmos cutoff=0.3 in=/data/adams/apertif/AGC749237/00/continuum/AGC749237_stack out=/data/adams/apertif/AGC749237/AGC749237_RC 
+04/19/2018 10:50:55 AM - basher - DEBUG : 
+
+linmos: Revision 1.32, 2016/03/18 02:55:49 UTC
+
+WARNING: Setting RMS to 1.0 for all images.
+Processing image /data/adams/apertif/AGC749237/00/continuum/AGC749237_stack
+
+04/19/2018 10:50:55 AM - basher - DEBUG : ### Informational:  Interpolating beam models in frequency
+
+04/19/2018 10:50:55 AM - basher - DEBUG : Returning output.
+04/19/2018 10:51:37 AM - masher - DEBUG : fits in=/data/adams/apertif/AGC749237/AGC749237_RC op=xyout out=/data/adams/apertif/AGC749237/AGC749237_RC.fits 
+04/19/2018 10:51:37 AM - basher - DEBUG : fits in=/data/adams/apertif/AGC749237/AGC749237_RC op=xyout out=/data/adams/apertif/AGC749237/AGC749237_RC.fits 
+04/19/2018 10:51:37 AM - basher - DEBUG : Command = fits in=/data/adams/apertif/AGC749237/AGC749237_RC op=xyout out=/data/adams/apertif/AGC749237/AGC749237_RC.fits 
+04/19/2018 10:51:37 AM - basher - DEBUG : 
+
+fits: Revision 1.32, 2014/09/15 04:39:01 UTC
+
+
+04/19/2018 10:51:37 AM - basher - DEBUG : Returning output.
