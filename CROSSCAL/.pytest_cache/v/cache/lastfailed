@@ -1,0 +1,4 @@
+{
+  "test_crosscal.py::TestClass_scandict::()::test_dictionary_add_good_start_date": true, 
+  "test_crosscal.py::TestClass_scandict::()::test_dictionary_add_number_start_date": true
+}
